@@ -24,3 +24,5 @@ perform tests
 perform tests
 perform tests
 perform tests
+controller all --package ~.web
+perform tests

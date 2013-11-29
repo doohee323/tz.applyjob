@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_tz_applyjob_domain_Applyjob" items="${applyjobs}" z="UYWHESgh5am+hpJ4uHauFq1F0Zs=">
+        <table:table data="${applyjobs}" id="l_com_tz_applyjob_domain_Applyjob" path="/applyjobs" z="Qf9nVzkxia4FmSKZ4NHHT5O44R0=">
+            <table:column id="c_com_tz_applyjob_domain_Applyjob_jobtitle" property="jobtitle" z="Pl7uVkdBEDXa03Dqg9vjg3wj0a4="/>
+            <table:column id="c_com_tz_applyjob_domain_Applyjob_company" property="company" z="ScSkuSoFTlPdhfLn5aHc4suM0Ro="/>
+            <table:column id="c_com_tz_applyjob_domain_Applyjob_location" property="location" z="VVc3qpCN32LcH99h2m4ER50BOHU="/>
+            <table:column id="c_com_tz_applyjob_domain_Applyjob_dateposted" property="dateposted" z="guOK/pu9HQjJF4wu0vcvg1xoCdM="/>
+            <table:column id="c_com_tz_applyjob_domain_Applyjob_visa" property="visa" z="HPsQqwGqub/U4imuPvR4dqn4gKE="/>
+            <table:column id="c_com_tz_applyjob_domain_Applyjob_tech" property="tech" z="NvKXFm+lPwaMEa+EKB9JUvHLxMU="/>
+        </table:table>
+    </page:list>
+</div>

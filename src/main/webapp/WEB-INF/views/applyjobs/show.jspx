@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_tz_applyjob_domain_Applyjob" object="${applyjob}" path="/applyjobs" z="LR3mK5wRwVuk/dd87PdyzoW5WCo=">
+        <field:display field="jobtitle" id="s_com_tz_applyjob_domain_Applyjob_jobtitle" object="${applyjob}" z="FL5zsaiipIz6Z52Ek3BXCMmQ1TY="/>
+        <field:display field="company" id="s_com_tz_applyjob_domain_Applyjob_company" object="${applyjob}" z="h3cvdCnKU/qw02F1goVpwO1AH/Q="/>
+        <field:display field="location" id="s_com_tz_applyjob_domain_Applyjob_location" object="${applyjob}" z="Bon7nLkAOv3gPkxE5Y7HJQJpY/E="/>
+        <field:display field="dateposted" id="s_com_tz_applyjob_domain_Applyjob_dateposted" object="${applyjob}" z="wXL8YjbjHTxFdVjfz1i1DIOvcs0="/>
+        <field:display field="visa" id="s_com_tz_applyjob_domain_Applyjob_visa" object="${applyjob}" z="JoL9UB0FDkO6qcyl0zKXwlosRvE="/>
+        <field:display field="tech" id="s_com_tz_applyjob_domain_Applyjob_tech" object="${applyjob}" z="DqYw8Jie47J5lXL8sRAJgSvSWu0="/>
+        <field:display field="etc" id="s_com_tz_applyjob_domain_Applyjob_etc" object="${applyjob}" z="R9uGX1NEbIgudzCH7smA3Z5SoZA="/>
+        <field:display field="possible" id="s_com_tz_applyjob_domain_Applyjob_possible" object="${applyjob}" z="LP7JVuvN5t/GtGk7zC5NCzBljNY="/>
+        <field:display field="favorite" id="s_com_tz_applyjob_domain_Applyjob_favorite" object="${applyjob}" z="SjbEQ8xL/nh6cDufolWUzlOQr/Y="/>
+        <field:display field="url" id="s_com_tz_applyjob_domain_Applyjob_url" object="${applyjob}" z="a0UlmnAzL9jcxCLysRQJSS8TfTM="/>
+        <field:display field="pay" id="s_com_tz_applyjob_domain_Applyjob_pay" object="${applyjob}" z="Qw0qKqgRVL5kEBHn0ZrE7o4g0Ko="/>
+        <field:display field="contract" id="s_com_tz_applyjob_domain_Applyjob_contract" object="${applyjob}" z="JdxE+8wyLAM32Zje97spIodY2Rk="/>
+        <field:display field="immediate_yn" id="s_com_tz_applyjob_domain_Applyjob_immediate_yn" object="${applyjob}" z="PHTqHeTkrlCWsUekragVGHBrkZI="/>
+        <field:display field="cmmt" id="s_com_tz_applyjob_domain_Applyjob_cmmt" object="${applyjob}" z="M77izfb245be6tO6SE/qX9epRIo="/>
+        <field:display field="regist_dt" id="s_com_tz_applyjob_domain_Applyjob_regist_dt" object="${applyjob}" z="k1OQ14dfYQzO/4vWjlQHiB88W7w="/>
+    </page:show>
+</div>

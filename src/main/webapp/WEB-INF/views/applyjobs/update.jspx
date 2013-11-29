@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_tz_applyjob_domain_Applyjob" modelAttribute="applyjob" path="/applyjobs" versionField="Version" z="OLAbMI1/7HTAQfts8FcPB8O+Wq8=">
+        <field:input field="jobtitle" id="c_com_tz_applyjob_domain_Applyjob_jobtitle" z="scGWJl52Lk+9mSndVNUXZznBKfs="/>
+        <field:input field="company" id="c_com_tz_applyjob_domain_Applyjob_company" z="Ii2uqzFQohvlKrEIqz9O9P0yiZc="/>
+        <field:input field="location" id="c_com_tz_applyjob_domain_Applyjob_location" z="f70jVCJNa36hnITf31wTxAyAXPU="/>
+        <field:input field="dateposted" id="c_com_tz_applyjob_domain_Applyjob_dateposted" z="unXEpWED8rI9/T74KZrDlCIzh/Y="/>
+        <field:input field="visa" id="c_com_tz_applyjob_domain_Applyjob_visa" z="Pk5o6dW/eOHosdkTLP8PAucSRy0="/>
+        <field:input field="tech" id="c_com_tz_applyjob_domain_Applyjob_tech" z="9M4iLpK2tYze6Yl28WA7Ue4en3Q="/>
+        <field:input field="etc" id="c_com_tz_applyjob_domain_Applyjob_etc" z="qRrKapT8od3SqCUg8KeuwLTBV7Q="/>
+        <field:input field="possible" id="c_com_tz_applyjob_domain_Applyjob_possible" z="/dWiibIYnT4IINboTDWetWWFdRE="/>
+        <field:input field="favorite" id="c_com_tz_applyjob_domain_Applyjob_favorite" z="FIrJDnG4VELz4hapxKjl6uYRBZw="/>
+        <field:input field="url" id="c_com_tz_applyjob_domain_Applyjob_url" z="LQgoCF4eqn42DEnOc8ghMl5I0z8="/>
+        <field:input field="pay" id="c_com_tz_applyjob_domain_Applyjob_pay" z="rKQ2faqeIO0A7YQlNddVXiNs5b4="/>
+        <field:input field="contract" id="c_com_tz_applyjob_domain_Applyjob_contract" z="G8ztOlw3QoO1jE0L5es+RrwJwtw="/>
+        <field:input field="immediate_yn" id="c_com_tz_applyjob_domain_Applyjob_immediate_yn" z="C6CF9xu0KPOtidxDBKDRO3CKSnc="/>
+        <field:input field="cmmt" id="c_com_tz_applyjob_domain_Applyjob_cmmt" z="mMwZNhfYYgPezYTDz8hamIfLBNM="/>
+        <field:input field="regist_dt" id="c_com_tz_applyjob_domain_Applyjob_regist_dt" z="qijbflRhD7XmpLVR8IK5n3dVFWk="/>
+    </form:update>
+</div>

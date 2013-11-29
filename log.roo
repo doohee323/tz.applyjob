@@ -26,3 +26,5 @@ perform tests
 perform tests
 controller all --package ~.web
 perform tests
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-11-29 17:58:52
+perform tests

@@ -109,6 +109,9 @@ privileged aspect ApplyjobDataOnDemand_Roo_DataOnDemand {
     
     public void ApplyjobDataOnDemand.setUrl(Applyjob obj, int index) {
         String url = "url_" + index;
+        if (url.length() > 1000) {
+            url = url.substring(0, 1000);
+        }
         obj.setUrl(url);
     }
     

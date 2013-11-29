@@ -1,3 +1,26 @@
 // Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-11-29 17:10:46
 project --topLevelPackage com.tz.applyjob --projectName tz.applyjob --java 7 --packaging JAR
 // Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-11-29 17:10:48
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-11-29 17:14:10
+persistence setup --provider HIBERNATE --database ORACLE
+entity jpa --class ~.domain.Applyjob --testAutomatically 
+field number --fieldName id --type int --notNull 
+field string --fieldName jobtitle
+field string --fieldName company  
+field string --fieldName location   
+field string --fieldName dateposted   
+field string --fieldName visa  
+field string --fieldName tech 
+field string --fieldName etc    
+field string --fieldName possible  
+field string --fieldName favorite   
+field string --fieldName url      
+field string --fieldName pay  
+field string --fieldName contract   
+field string --fieldName immediate_yn 
+field string --fieldName cmmt     
+field string --fieldName regist_dt    
+perform tests
+perform tests
+perform tests
+perform tests
